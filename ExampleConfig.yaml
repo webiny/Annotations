@@ -1,0 +1,10 @@
+#######################################
+# Annotations - example configuration #
+#######################################
+
+Annotations:
+    Bridge: \Webiny\Component\Annotations\Bridge\Minime\Annotations
+    # Entries under ClassLoader are automatically registered
+    # with ClassLoader.
+    ClassLoader:
+        Minime\Annotations: /var/www/Vendors/Minime/Annotations/src
