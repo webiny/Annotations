@@ -28,12 +28,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Webiny\\Component\\Cache\\": ""
+			"Webiny\\Component\\Annotations\\": ""
 		}
 	},
 	"extras": {
 		"branch-alias": {
-			"dev-master": "~0.9"
+			"dev-master": "1.0.0-RC1"
 		}
 	}
 }

@@ -1,12 +1,37 @@
 Annotations Component
 =====================
 This simple component lets you read annotations assigned to a `class`, `method` or a `property`.
+
+Install the component
+---------------------
+The best way to install the component is using Composer.
+
+```json
+{
+    "require": {
+        "webiny/annotations": "dev-master"
+    }
+}
+```
+For additional versions of the package, visit the [Packagist page](https://packagist.org/packages/webiny/annotations).
+
+Once you have your `composer.json` file in place, just run the install command.
+
+    $ php composer.phar install
+
+To learn more about Composer, and how to use it, please visit [this link](https://getcomposer.org/doc/01-basic-usage.md).
+
+Alternatively, you can also do a `git checkout` of the repo.
+
+
+## Configuration and setup
 The component configuration is minimal, you just need to define the bridge dependency.
-The builtin bridge uses `Minime\Annotations` library. https://github.com/marcioAlmada/annotations
+The built-in bridge uses [Minime\Annotations](https://github.com/marcioAlmada/annotations) library.
 
 ```yaml
 Annotations:
     Bridge: \Webiny\Component\Annotations\Bridge\Minime\Annotations
+    # You don't need this part if you are using Composer autoload.
     ClassLoader:
         Minime\Annotations: /var/www/Vendors/Minime/Annotations/src
 ```
