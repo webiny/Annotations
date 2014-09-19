@@ -108,7 +108,7 @@ class Annotations
             if (!isset($root[$key])) {
                 $root[$key] = [];
             }
-            $root = & $root[$key];
+            $root = &$root[$key];
         }
 
         $key = reset($keys);
