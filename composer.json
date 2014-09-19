@@ -21,7 +21,7 @@
 		"webiny/class-loader": "dev-master",
 		"webiny/config": "dev-master",
 		"webiny/std-lib": "dev-master",
-		"minime/annotations": "dev-master"
+		"minime/annotations": "~1.13"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.1.*"
