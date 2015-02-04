@@ -2,7 +2,7 @@
 	"name": "webiny/annotations",
 	"type": "library",
 	"description": "Webiny Annotations Component",
-	"keywords": ["annotations"],
+	"keywords": ["annotations", "phpdoc"],
 	"homepage": "http://www.webiny.com/",
 	"license": "MIT",
 	"authors": [
@@ -17,13 +17,14 @@
 	],
 	"minimum-stability": "dev",
 	"require": {
-		"php": ">=5.4.0",
-		"webiny/config": "~1.0",
-		"webiny/std-lib": "~1.0",
+		"php": ">=5.5.9",
+		"webiny/config": "~1.2",
+		"webiny/std-lib": "~1.2",
 		"minime/annotations": "~1.13"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "4.1.*"
+		"phpunit/phpunit": "~4",
+		"mybuilder/phpunit-accelerator": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
@@ -32,7 +33,7 @@
 	},
 	"extras": {
 		"branch-alias": {
-			"dev-master": "1.1-dev"
+			"dev-master": "1.2-dev"
 		}
 	}
 }
